@@ -2,10 +2,10 @@
   <img src="https://img.shields.io/badge/Project-AdonisJS-brightgreen.svg"/>
 </a>
 
-# ChatApp Backend 
+# Astro Backend 
 
 ## Introduction
-Chat App Backend - Build With AdonisJS
+Experimental Astronaut Clone Backend - Build With AdonisJS
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ Chat App Backend - Build With AdonisJS
 - [Contributors](#contributors)
 
 ## Related Project
-* <a href="https://github.com/ariandy/chat-frontend">React Native - CHAT App</a>
+* <a href="https://github.com/ariandy/astro-be">React Native - astro-fe</a>
 
 ## Endpoints
 * `POST api/auth/login`, for login purpose.
@@ -32,11 +32,11 @@ Chat App Backend - Build With AdonisJS
 
 1. Clone this repository
    ```
-   $ git clone https://github.com/ariandy/adonis-chat.git
+   $ git clone https://github.com/ariandy/astro-be.git
    ```
 2. Install all depedencies on the package.json
    ```
-   $ cd adonis-chat
+   $ cd astro-be
    $ npm install
    ```
 3. Just run the migration and seed
