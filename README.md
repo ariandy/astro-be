@@ -1,28 +1,48 @@
-# Adonis API application
+<a href="">
+  <img src="https://img.shields.io/badge/Project-AdonisJS-brightgreen.svg"/>
+</a>
 
-This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
+## Introduction
+Chat App Backend - Build With AdonisJS
 
-1. Bodyparser
-2. Authentication
-3. CORS
-4. Lucid ORM
-5. Migrations and seeds
+## Table of Contents
 
-## Setup
+- [Introduction](#introduction)
+- [Endpoints](#endpoints)
+- [Requirements](#requirements)
+- [Contributors](#contributors)
 
-Use the adonis command to install the blueprint
+## Related Project
+* <a href="https://github.com/ariandy/chat-frontend">React Native - CHAT App</a>
 
-```bash
-adonis new yardstick --api-only
-```
+## Endpoints
+* `POST api/auth/login`, for login purpose.
+* `GET /api/v1/rooms`, to see all of the rooms list.
+* `GET /api/v1/rooms/:id/chats`, to see all off the message in room.
+* `POST /api/v1/messages`, send a message.
 
-or manually clone the repo and then run `npm install`.
+## Requirements
+* [`npm`](https://www.npmjs.com/get-npm)
+* [`adonisjs`](https://adonisjs.com)
 
 
-### Migrations
+## How To Run
 
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
-```
+1. Clone this repository
+   ```
+   $ git clone https://github.com/ariandy/adonis-chat.git
+   ```
+2. Install all depedencies on the package.json
+   ```
+   $ cd adonis-chat
+   $ npm install
+   ```
+3. Just run the migration and seed
+   ```
+   $ adonis migration:run
+   $ adonis seed
+   ```
+4. Run the Adonis server
+   ```
+   $ adonis serve --dev
+   ```
