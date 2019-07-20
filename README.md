@@ -2,6 +2,8 @@
   <img src="https://img.shields.io/badge/Project-AdonisJS-brightgreen.svg"/>
 </a>
 
+# ChatApp Backend 
+
 ## Introduction
 Chat App Backend - Build With AdonisJS
 
