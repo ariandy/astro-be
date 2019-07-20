@@ -18,10 +18,9 @@ Experimental Astronaut Clone Backend - Build With AdonisJS
 * <a href="https://github.com/ariandy/astro-be">React Native - astro-fe</a>
 
 ## Endpoints
-* `POST api/auth/login`, for login purpose.
-* `GET /api/v1/rooms`, to see all of the rooms list.
-* `GET /api/v1/rooms/:id/chats`, to see all off the message in room.
-* `POST /api/v1/messages`, send a message.
+* `POST /api/v1/user`, store the user information (name, email, phone number).
+* `GET /api/v1/questions?number=$number`, to fetch all of the question, one by one.
+* `POST /api/v1/answer`, save all of the user answer.
 
 ## Requirements
 * [`npm`](https://www.npmjs.com/get-npm)
